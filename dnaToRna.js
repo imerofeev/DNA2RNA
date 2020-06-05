@@ -17,7 +17,7 @@ const dnaToRna = (dna) => {
         rna += "U";
         break;
       default:
-        return "Entered data is not DNA chain";
+        throw new Error("Entered data is not DNA nucleotide");
     }
   }
   return rna;
