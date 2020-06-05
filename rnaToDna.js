@@ -17,7 +17,7 @@ const rnaToDna = (rna) => {
         dna += "A";
         break;
       default:
-        throw new Error("Entered data is not RNA nucleotide");
+        throw new Error("Wrong nucleotide");
     }
   }
   return dna;
