@@ -1,5 +1,5 @@
 const rnaToDna = (rna) => {
-  if (rna.length === 0) throw new TypeError("Entered data is empty");
+  if (rna.length === 0) throw new TypeError("Empty data");
   let rna = "";
   rna = rna.toUpperCase();
   for (let i = 0; i < rna.length; i++) {
